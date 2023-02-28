@@ -1,5 +1,0 @@
-Merge stLFR reads into 10X format !
- read1 :  split_reads.1.fq.gz.clean.gz 
-. read2 : split_reads.2.fq.gz.clean.gz 
- map file : merge.txt
-Total 73463 pair reads and used 73463 pairs.

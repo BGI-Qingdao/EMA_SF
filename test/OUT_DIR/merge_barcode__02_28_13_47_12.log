@@ -1,6 +1,0 @@
-barcode_freq in ./clean_barcode_freq.txt
-whitelist  in /zfsqd1/ST_OCEAN/USRS/qiyanwei/software/api/EMA_SF/config/4M-with-alts-february-2016.txt
-output merge in merge.txt
-smallest barcode freq is 1
-Total 199999999 in whilte list of 10X is loaded !!!
-Load 5098 valid-stlfr-barcode from total 5098 stlfr-barcodethe stLFR barcode : 10x barcode map true-ratio is 1 :1Total 73463 pairs and used 73463 pairs  

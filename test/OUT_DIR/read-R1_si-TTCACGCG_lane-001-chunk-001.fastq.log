@@ -3,5 +3,5 @@
 :: Reads with OK barcode: 73,463 out of 73,463
 :: Ignored 0 reads
 :: Dumped block 1
-:: Printing took 0.0 s
+:: Printing took 0.1 s
 :: Processed 73,463 reads (38 MB uncompressed) in 0 s

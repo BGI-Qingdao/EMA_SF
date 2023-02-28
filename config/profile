@@ -41,9 +41,10 @@ MAX_READS=2140000000 #for supernova 2.11
 #  MODIFY HERE FOR YOU ENVIROMENT !!!
 
 # "SCRIPT_PATH" is the YOUR-INSTALL-DIR directory .
-SCRIPT_PATH="/dellfsqd1/ST_OCEAN/ST_OCEAN/USRS/xumengyang/software/stlfr2supernova_pipeline/"
+#
+SCRIPT_PATH=`dirname $0`
 #"SUPERNOVA" is the executable path of supernova. Various versions are acceptable.
-SUPERNOVA="/dellfsqd1/ST_OCEAN/ST_OCEAN/USRS/xumengyang/software/supernova4stLFR/"
+#SUPERNOVA="/dellfsqd1/ST_OCEAN/ST_OCEAN/USRS/xumengyang/software/supernova4stLFR/"
 
 #
 #   intermediate files that will be generated/needed below .
@@ -52,7 +53,7 @@ SUPERNOVA="/dellfsqd1/ST_OCEAN/ST_OCEAN/USRS/xumengyang/software/supernova4stLFR
 #
 
 #"SOAP_FILTER is the executable path of SOAPFilter
-SOAP_FILTER=$SCRIPT_PATH"/bin/SOAPfilter_v2.2"
+SOAP_FILTER=$SCRIPT_PATH"/../tool/SOAPfilter_v2.2"
 R1="tmp_r1.fq.gz"                   # the symbol-link concatenating different lanes.
 R2="tmp_r2.fq.gz"
 SPLIT="split_reads"                 # the prefix of splitted reads. split_reads.1.fq.gz & split_reads.2.fq.gz
