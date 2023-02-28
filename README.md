@@ -13,6 +13,7 @@ Denpendencies:
 + sambamba Version 0.6.6 (conda install -c bioconda sambamba)
 + Parallel (https://doi.org/10.5281/zenodo.5233953)
 
+You can either add EMA_SF's 3rd party dependencies to your system path($PATH) or put the full path to alias into the folder /EMA_SF/bin/ which can be found by EMA_SF.sh easily.
 How to use:
 ---
 ```
