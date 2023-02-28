@@ -16,7 +16,7 @@ Denpendencies:
 
 Barcode download:
 ---
-Download the whitelist barcode ("4M-with-alts-february-2016.txt") into the /EMA_SF/config/ folder. ( Very important!)
+Download the whitelist barcode ("Barcode-200M-Whitelist-2018.txt", https://zenodo.org/deposit/7683732#) into the /EMA_SF/config/ folder. ( Very important!)
 
 How to use:
 ---
