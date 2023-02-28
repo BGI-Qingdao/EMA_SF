@@ -12,6 +12,11 @@ Denpendencies:
 + samtools Version: 1.9 (using htslib 1.9)
 + sambamba Version 0.6.6 (conda install -c bioconda sambamba)
 + Parallel (https://doi.org/10.5281/zenodo.5233953)
++ Tips: You can either add EMA_SF's 3rd party dependencies to your system path($PATH) or put the full path to alias into the folder /EMA_SF/bin/ which can be found by EMA_SF.sh easily.
+
+Barcode download:
+---
+Download the whitelist barcode ("4M-with-alts-february-2016.txt") into the /EMA_SF/config/ folder. ( Very important!)
 
 How to use:
 ---
