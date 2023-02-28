@@ -1,0 +1,55 @@
+/zfsqd1/ST_OCEAN/USRS/qiyanwei/software/api/EMA_SF/test/OUT_DIR
+Step1 CovertTo10X Starting at: Tue Feb 28 13:47:11 CST 2023
+Check input files ...
+Tue Feb 28 13:47:12 CST 2023
+10X whitelist in /zfsqd1/ST_OCEAN/USRS/qiyanwei/software/api/EMA_SF/config/4M-with-alts-february-2016.txt
+Tue Feb 28 13:47:12 CST 2023
+Generate merge.txt ...
+Fake 10X data . this will take a long time ... 
+Tue Feb 28 13:48:20 CST 2023
+done step 2 ...
+Tue Feb 28 13:48:23 CST 2023
+Ending at: Tue Feb 28 13:48:23 CST 2023
+Step2 Count Starting at:Tue Feb 28 13:48:23 CST 2023
+Count End at:Tue Feb 28 13:48:23 CST 2023
+Step3 Preprocessing Starting at: Tue Feb 28 13:48:23 CST 2023
+:: Bucketing 1 inputs into 500 files with 20 threads
+:: Loading known counts file read-R1_si-TTCACGCG_lane-001-chunk-001.fastq.ema-ncnt ... 
+:: Loading known counts ... done in 0.0 s
+:: Loading full counts file read-R1_si-TTCACGCG_lane-001-chunk-001.fastq.ema-fcnt ... 
+::: Loading dump 1 of size 5,098 (0 MB) done in 0.001 s
+  :: Thread 1 from 255 to 510 took 0 s
+  :: Thread 0 from 0 to 255 took 0 s
+  :: Thread 2 from 510 to 765 took 0 s
+  :: Thread 4 from 1,020 to 1,275 took 0 s
+  :: Thread 5 from 1,275 to 1,530 took 0 s
+  :: Thread 3 from 765 to 1,020 took 0 s
+  :: Thread 6 from 1,530 to 1,785 took 0 s
+  :: Thread 8 from 2,040 to 2,295 took 0 s
+  :: Thread 9 from 2,295 to 2,550 took 0 s
+  :: Thread 10 from 2,550 to 2,805 took 0 s
+  :: Thread 11 from 2,805 to 3,060 took 0 s
+  :: Thread 7 from 1,785 to 2,040 took 0 s
+  :: Thread 12 from 3,060 to 3,315 took 0 s
+  :: Thread 13 from 3,315 to 3,570 took 0 s
+  :: Thread 14 from 3,570 to 3,825 took 0 s
+  :: Thread 16 from 4,080 to 4,335 took 0 s
+  :: Thread 15 from 3,825 to 4,080 took 0 s
+  :: Thread 18 from 4,590 to 4,845 took 0 s
+  :: Thread 17 from 4,335 to 4,590 took 0 s
+  :: Thread 19 from 4,845 to 5,098 took 0 s
+::: Correcting done in 0.003 s
+:: Stats: no change: 73,463 
+         no barcode: 0 
+       H1-corrected: 0 
+       H2-corrected: 0 
+:: Corrected map size: 0 (~ 0 MB)
+:: Correcting barcodes ... done in 0.0 s
+:: File assignment ... done in 0.3 s
+:: [==================================================] 73,463 out of 73,463 (100.00%)
+Writing barcodes ... done in 3.5 s
+Preprocessing Ending at: Tue Feb 28 13:48:27 CST 2023
+Step4 Mapping starting at: Tue Feb 28 13:48:27 CST 2023
+Mapping ending at: Tue Feb 28 13:49:12 CST 2023
+Step5 Postprocessing starting at: Tue Feb 28 13:49:12 CST 2023
+Postprocessing ending at: Tue Feb 28 13:49:16 CST 2023

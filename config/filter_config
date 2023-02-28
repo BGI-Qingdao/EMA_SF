@@ -1,0 +1,6 @@
+trimBadHead=13,100
+trimBadTail=13,100
+qualSys=2
+seqType=0
+outQualSys=2
+trim=0,0,0,42
