@@ -16,7 +16,7 @@ Denpendencies:
 
 Barcode download:
 ---
-Download the whitelist barcode into the /EMA_SF/config/ folder. ( Very important!)
+Download the whitelist barcode ("4M-with-alts-february-2016.txt") into the /EMA_SF/config/ folder. ( Very important!)
 
 How to use:
 ---
